@@ -11,7 +11,7 @@ services:
     volumes:
       - mysql-database:/var/lib/mysql
     networks:
-          - todo-network
+      - my-network
 
   todo-service:
     container_name: todo-service
@@ -19,13 +19,13 @@ services:
     depends_on:
       - mysql-container
     networks:
-      - todo-network
+      - my-network
 
 volumes:
   mysql-database:
     name: mysql-database
 
 networks:
-  todo-network:
-    name: todo-network
+  my-network:
+    name: my-network
     external: true
