@@ -1,0 +1,49 @@
+# Ignore user-specific files
+.idea/
+*.iml
+
+# Ignore output directories
+out/
+target/
+
+# Ignore logs
+*.log
+
+# Ignore build directories
+build/
+
+# Ignore compiled files
+*.class
+
+# Ignore JAR and WAR files
+*.jar
+*.war
+
+# Ignore miscellaneous files
+*.DS_Store
+*.class
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# Ignore local configuration files
+*.local
+
+# Ignore the .gradle folder if using Gradle
+.gradle/
+
+# Ignore the .m2 folder if using Maven
+.m2/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore IntelliJ-specific files
+*.idea/
+*.ipr
+*.iws
+
+# Ignore other IDE specific files (if applicable)
+.vscode/
