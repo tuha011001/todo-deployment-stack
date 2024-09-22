@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   mysql-container:
     container_name: mysql-container
-    image: sha256:680b8c60dce62c25af20deda8764e29191709a4495b116f6b4d655061d3bd8ff
+    image: mysql:latest
     environment:
       MYSQL_ROOT_PASSWORD: 123456
     ports:
