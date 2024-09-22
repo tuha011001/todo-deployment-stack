@@ -13,7 +13,7 @@ services:
 
   todo-service:
     container_name: todo-service
-    image: sha256:01e3cf81165c262f5f8ed117727db3dae526dd3477de7ef1d301d271d75d843c
+    image: todo-service
     depends_on:
       - mysql-container
     networks:
