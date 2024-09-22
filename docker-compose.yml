@@ -13,7 +13,7 @@ services:
 
   todo-service:
     container_name: todo-service
-    image: todo-service
+    image: tuha011001/todo-service-image:v1
     depends_on:
       - mysql-container
     networks:
